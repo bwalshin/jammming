@@ -1,6 +1,6 @@
 let accessToken = ""
 const client_id = '8dc1560c67d54bbc8a327182c919a447';
-const redirect_uri = 'http://localhost:3000/';
+const redirect_uri = "http://localhost:3000";
 
 export const Spotify = {
     getAccessToken() {

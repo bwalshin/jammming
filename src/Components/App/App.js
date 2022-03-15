@@ -36,10 +36,9 @@ class App extends React.Component {
 
   removeTrack(track) {
     let newPlaylistTracks = this.state.playlistTracks.filter(
-      (playlistTrack) => (playlistTrack.id !== track.id
-    );
-    this.setState({ playlistTracks: newPlaylistTracks });
-  }
+      (playlistTrack) => (playlistTrack.id !== track.id), 
+      this.setState({ playlistTracks: newPlaylistTracks }))
+  };
 
   updatePlaylistName(name) {
     this.setState({ playlistName: name });
